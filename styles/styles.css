@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+img{
+    padding: 10px;
+}
+
+.header{
+    background-color: beige;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
