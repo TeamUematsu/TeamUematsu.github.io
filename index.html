@@ -16,60 +16,63 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <!-- Main Stylesheet-->
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
 
     <!-- Index javascript file-->
     <script src="js/index.js"></script>
 
 </head>
 
+
+
+<!--NAvbar section-->
+
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/music.html">Music</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/store.html">Store</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/blog.html">Blog</a>
+            </li>
+            <li class="nav-itemt">
+                <a class="nav-link" href="pages/tickets.html">Purchase Concert Tickets</a>
+            </li>
+
+        </ul>
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">My Account</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--Intro Section-->
+
 <body>
-
-    <!--NAvbar section-->
-
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/music.html">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/store.html">Store</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/blog.html">Blog</a>
-                </li>
-                <li class="nav-itemt">
-                    <a class="nav-link" href="pages/tickets.html">Purchase Concert Tickets</a>
-                </li>
-
-            </ul>
-            <ul class="navbar-nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">My Account</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!--Intro Section-->
-
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <img src="https://via.placeholder.com/1600x500" class="img-fluid max-width: 100%" alt="Responsive image">
-
+            <img src="assets/landing.JPG" class="img-fluid max-width: 100%" alt="Responsive image">
         </div>
+    </div>
+
+    <div class="container-fluid">
         <div class="row">
 
             <h1>carousele will go here</h1>
@@ -86,12 +89,12 @@
 
         <div class="row ">
             <div class="col-md-5 mx-auto ">
-                <div class="nauk-info-connections text-center">
-                    <img src="https://via.placeholder.com/400x400" class="img-fluid max-width: 100%" alt="Responsive image">
+                <div class="row">
+                    <img src="assets/nobuo.png" style="padding: 5%" class="img-fluid max-width: 100%" alt="Responsive image">
                 </div>
             </div>
             <div class="col-md-5 mx-auto ">
-                <div class="nauk-info-connections text-center">
+                <div class="nauk-info-connections text-center" style="padding-top:25%">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                         it to make a type specimen book. It has survived not only five centuries, but also the leap into
@@ -101,8 +104,10 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!--Reacent work Section-->
+    <!--Reacent work Section-->
+    <div class="container-fluid">
         <div class="row header">
             <div class="col-md-5 mx-auto ">
                 <div class="nauk-info-connections text-center">
@@ -110,80 +115,34 @@
                 </div>
             </div>
         </div>
+    </div>
 
-
-        <div class="row">
+    <div class="container">
+        <div class="row" style="padding-top:2%">
             <div class="col-md-3 mx-auto ">
-                <div class="nauk-info-connections text-center">
-                    <img src="https://via.placeholder.com/300x300" class="img-fluid max-width: 100%" alt="Responsive image">
-                    <img src="https://via.placeholder.com/300x300" class="img-fluid max-width: 100%" alt="Responsive image">
+                <div style="margin:1%" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/art10.png" alt="Card image cap">
                 </div>
             </div>
             <div class="col-md-3 mx-auto ">
-                <div class="nauk-info-connections text-center">
-                    <img src="https://via.placeholder.com/300x300" class="img-fluid max-width: 100%" alt="Responsive image">
-                    <img src="https://via.placeholder.com/300x300" class="img-fluid max-width: 100%" alt="Responsive image">
+                <div style="margin:1%" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/art9.png" alt="Card image cap">
                 </div>
             </div>
+
             <div class="col-md-3 mx-auto ">
-                <div class="nauk-info-connections text-center">
-                    <img src="https://via.placeholder.com/300x300" class="img-fluid max-width: 100%" alt="Responsive image">
-                    <img src="https://via.placeholder.com/300x300" class="img-fluid max-width: 100%" alt="Responsive image">
+                <div style="margin:1%" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/art8.png" alt="Card image cap">
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
 </body>
+
+
+
 <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4">
 
-    <!-- Footer Elements -->
-    <div class="container">
-
-        <!-- Social buttons -->
-        <ul class="list-unstyled list-inline text-center">
-            <li class="list-inline-item">
-                <a class="btn-floating btn-fb mx-1">
-                    <i class="fa fa-facebook"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-tw mx-1">
-                    <i class="fa fa-twitter"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-gplus mx-1">
-                    <i class="fa fa-google-plus"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-li mx-1">
-                    <i class="fa fa-linkedin"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-dribbble mx-1">
-                    <i class="fa fa-dribbble"> </i>
-                </a>
-            </li>
-        </ul>
-        <!-- Social buttons -->
-
-    </div>
-    <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-
-
-
+<
 
 </html>
