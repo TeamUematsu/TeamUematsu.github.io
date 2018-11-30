@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap and Jquery components via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+    <!-- Main Stylesheet-->
+    <link rel="stylesheet" href="../styles/index.css">
+
+    <!-- Index javascript file-->
+    <script src="../js/music.js"></script>
+
+</head>
+
+<body>
+
+    <!--NAvbar section-->
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="../index.html">Home
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/blog.html">Blog</a>
+                </li>
+                <li class="nav-itemt">
+                    <a class="nav-link" href="../pages/tickets.html">Purchase Concert Tickets</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">My Account</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Album Section-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 mx-auto ">
+                <div>
+                    <a href="../pages/music.html">
+                        <p>See all of Nobuos music</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5 mx-auto ">
+                <div id="title" class="text-center">
+                    <!--append title-->
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4  ">
+                <div class="text-center">
+                    <div id="cover" style="margin:1%" class="card" style="width: 18rem;">
+                        <!--append album cover-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 ">
+                <row class="row  ">
+                    <div id="desc" class="text-center">
+                        <!--append album description-->
+                    </div>
+                </row>
+                <row id="song1" class="row "></row>
+                <row id="song2" class="row "></row>
+                <row id="song3" class="row "></row>
+                <row id="song4" class="row "></row>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    <!--Individual Albums-->
+
+
+
+
+</body>
+<footer class="container-fluid">
+    <div class="row bg-dark" id="footer">
+        <div class="col-sm-3 ">
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-primary" type="button">Search</button>
+                </div>
+            </div>
+            <div>
+                <p class="footertext"> Copyright © 2018. </p>
+            </div>
+
+        </div>
+        <div class="col-sm-6 mx-auto ">
+            <div>
+                <h4 class="text-center">NU</h4>
+                <h4 class="text-center">上松信夫</h4>
+            </div>
+
+        </div>
+        <div class="col-sm-3 mx-auto text-center">
+            <span class="">
+                <button class="btn btn-light fa fa-twitter"></button>
+                <button class=" btn btn-light fa fa-instagram"></button>
+                <button class="btn btn-light fa fa-facebook"></button>
+                <button class="btn btn-light fa fa-youtube"></button>
+            </span>
+
+        </div>
+    </div>
+
+</footer>
+
+
+</html>

@@ -6,6 +6,9 @@ h1,h4{
     color: #FBDB52;
 
 }
+p{
+    font-family: 'Gabriela', serif;
+}
 footer{
     margin-top: 2%;
     background-color: #000;
