@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+h1,h5{
+    font-family: 'Gabriela', serif;
+    color: #FBDB52;
+
+}
+h4,h2{
+    font-family: 'Gabriela', serif;
+    color: #D5342C;
+
+}
+p{
+    font-family: 'Gabriela', serif;
+}
+footer{
+    margin-top: 2%;
+    background-color: #000;
+
+}
+.title{
+    margin-top: 2%
+}
+.row{
+    padding: 1%;
+}
+
+.header{
+    background-color:#84818B;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.album{
+    border: #84818B
+    
+}
+.footertext{
+    color: white;
+}
+#footer{
+    padding-top: 2%;
+}
+
