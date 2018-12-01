@@ -15,6 +15,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
@@ -67,48 +69,49 @@
 
     <!--Album Section-->
     <div class="container-fluid">
-        <div class="row title">
-            <div class="col-md-4 mx-auto ">
-                <div>
+        <div class="row">
+            <div class="col-md-4 leftcolumn ">
+                <div class="title">
                     <a href="../pages/music.html">
-                        <p>< See all of Nobuos music</p>
+                        <p class=" backbtn fas fa-arrow-left"> See all of Nobuos music</p>
+                        
                     </a>
                 </div>
             </div>
             <div class="col-md-8 mx-auto ">
-                <div id="title" class="text-center">
+                <div id="title" class=" title text-center">
                     <!--append title-->
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4  ">
-                <div class="text-center">
+            <div class="col-md-4 leftcolumn">
+                <div class="text-center ">
                     <div id="cover" style="margin:1%" class="card" style="width: 18rem;">
                         <!--append album cover-->
                     </div>
                 </div>
             </div>
             <div class="col-md-8 ">
-                <row class="row  ">
+                <row class="row rightcolumn ">
                     <div id="desc" class="text-center">
                         <!--append album description-->
                     </div>
                 </row>
-                <row class="row  ">
+                <row class="row rightcolumn ">
                     <h4>Tracks</h4>
                 </row>
-                <row id="song1" class="row ">
+                <row id="song1" class="row rightcolumn ">
                     <!--append song from soundcloud-->
                 </row>
-                <row id="song2" class="row ">
+                <row id="song2" class="row rightcolumn">
                     <!--append song from soundcloud-->
                 </row>
-                <row id="song3" class="row ">
+                <row id="song3" class="row rightcolumn">
                     <!--append song from soundcloud-->
                 </row>
-                <row id="song4" class="row ">
+                <row id="song4" class="row rightcolumn">
                     <!--append song from soundcloud-->
                 </row>
             </div>
