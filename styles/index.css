@@ -1,12 +1,16 @@
 body {
     background-color: white;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 h1,h5{
     font-family: 'Gabriela', serif;
     color: #FBDB52;
 
 }
-h4{
+h4,h3,h2{
     font-family: 'Gabriela', serif;
     color: #D5342C;
 
@@ -19,14 +23,38 @@ footer{
     background-color: #000;
 
 }
+
 .navbar-default .navbar-brand {
     font-family: 'Gabriela', serif; !important;
     color: #FBDB52;!important;
+}
+.imagecotainer{
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-block2 {
+    position: absolute;
+    bottom: 1px;
+  
+}
+.-block {
+    position: absolute;
+    
 }
 .header{
     background-color:#84818B;
     padding-bottom: 3%;
     padding-top: 3%;
+}
+.title{
+    font-family: 'Gabriela', serif;
+    color: #D5342C;
 }
 .landing{
     margin: 0%;
@@ -38,7 +66,20 @@ footer{
 .footertext{
     color: white;
 }
+
 #footer{
     padding-top: 2%;
+}
+#image2{
+    display: none;
+}
+@media only screen and (max-width: 800px){ 
+    #image1{
+        display: none;
+    }
+   
+    #image2{
+        display: block;
+    }
 }
 

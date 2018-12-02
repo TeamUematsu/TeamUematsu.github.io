@@ -1,6 +1,10 @@
 body {
     background-color: white;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 h5{
     font-family: 'Gabriela', serif;
     color: #FBDB52;
