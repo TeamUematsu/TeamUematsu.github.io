@@ -43,10 +43,3 @@ $(document).ready(function () {
         $("#song4").append($('<iframe>', { width:'100%', height:'166',scrolling:'no', frameborder:'no',allow:'autoplay',src:"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/211512313&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"}));
     }
 });
-
-/**<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src=></iframe>
-"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/205517136&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src=></iframe>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src=></iframe>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src=></iframe>
-*/

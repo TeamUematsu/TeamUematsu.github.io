@@ -4,7 +4,6 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap and Jquery components via CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -16,10 +15,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
     <!-- Main Stylesheet-->
     <link rel="stylesheet" href="styles/index.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Index javascript file-->
     <script src="js/index.js"></script>
@@ -27,8 +29,8 @@
 </head>
 
 
-
 <!--NAvbar section-->
+
 
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#">NU上松信夫</a>
@@ -60,7 +62,7 @@
         </ul>
         <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="#">My Account</a>
+                <a class="nav-link" href="pages/account.html">My Account</a>
             </li>
         </ul>
     </div>
@@ -70,10 +72,18 @@
 
 <body>
     <div id="main" class="container-fluid ">
+        <div id="title" class="row">
+            <div class="col-md-3 justify-content-end">
+                <div class="text-center ">
+                    <h1 class="title">Nobuo Uematsu (上松信夫)</h1>
+                </div>
+            </div>
+        </div>
         <div class="row imagecotainer">
+
             <img id="image1" src="assets/landing.png" class="img-fluid" alt="Responsive image">
             <img id="image2" src="assets/landing2.png" class="img-fluid" alt="Responsive image">
-            <div class="text-block">
+            <div id="title2" class="text-block">
                 <span>
                     <h1 class="title">Nobuo Uematsu</h1>
                     <h3 class="title">(上松信夫)</h3>
@@ -81,7 +91,7 @@
             </div>
         </div>
     </div>
-    <div class="row header">
+    <div class="row header welcome">
         <div class="col-md-12 mx-auto ">
             <div class="text-center">
                 <h1>Welcome to Nobuo Uematsu Official Website</h1>
@@ -92,10 +102,48 @@
     <div class="container-fluid">
         <div class="row">
 
-            <h1>carousele will go here</h1>
+            <div class="container text-center my-3">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item row no-gutters active">
+                            <div id="promo" class="col-4 float-left">
+                                <img class="img-fluid" src="assets/promo1.png">
+                            </div>
+                            <div id="promo" class="col-4 float-left">
+                                <img class="img-fluid" src="assets/promo2.png">
+                            </div>
+                            <div id="promo" class="col-4 float-left">
+                                <img class="img-fluid" src="assets/promo3.png">
+                            </div>
 
+                        </div>
+                        <div class="carousel-item row no-gutters">
+                            <div id="promo" class="col-4 float-left">
+                                <img class="img-fluid" src="assets/promo4.png">
+                            </div>
+                            <div id="promo" class="col-4 float-left">
+                                <img class="img-fluid" src="assets/promo5.png">
+                            </div>
+                            <div id="promo" class="col-4 float-left">
+                                <img class="img-fluid" src="assets/promo6.png">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
         </div>
+
         <!--About Section-->
+
         <div class="row header">
             <div class="col-md-5 mx-auto ">
                 <div class="nauk-info-connections text-center">
@@ -123,6 +171,7 @@
     </div>
 
     <!--Reacent work Section-->
+
     <div class="container-fluid">
         <div class="row header">
             <div class="col-md-5 mx-auto ">
@@ -170,32 +219,36 @@
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                    <button class="btn btn-outline-primary" type="button">Search</button>
+                    <button class="btn btn-outline-light" type="button">Search</button>
                 </div>
             </div>
-            <div>
-                <p class="footertext"> Copyright © 2018. </p>
-            </div>
-
+        
         </div>
         <div class="col-sm-6 mx-auto ">
             <div>
                 <h5 class="text-center">NU</h5>
                 <h5 class="text-center">上松信夫</h5>
             </div>
-
         </div>
         <div class="col-sm-3 mx-auto text-center">
             <span class="">
-                <button class="btn btn-light fa fa-twitter"></button>
-                <button class=" btn btn-light fa fa-instagram"></button>
-                <button class="btn btn-light fa fa-facebook"></button>
-                <button class="btn btn-light fa fa-youtube"></button>
-            </span>
 
+                <a href="https://twitter.com/uematsunobuo?lang=en" target="_blank">
+                    <button type="reset" class="btn btn-light fa fa-twitter"></button>
+                </a>
+                <a href="https://www.instagram.com/nobuouematsu/?hl=en" target="_blank">
+                    <button class=" btn btn-light fa fa-instagram"></button>
+                </a>
+                <a href="https://www.facebook.com/UematsuNobuo/" target="_blank">
+                    <button class="btn btn-light fa fa-facebook"></button>
+                </a>
+                <a href="https://www.youtube.com/watch?v=9BzkrgVivk4" target="_blank">
+                    <button class="btn btn-light fa fa-youtube"></button>
+                </a>
+
+            </span>
         </div>
     </div>
-
 </footer>
 
 </html>

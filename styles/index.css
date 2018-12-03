@@ -1,3 +1,9 @@
+
+
+/*********************************************
+INDEX STYLES
+**********************************************/
+
 body {
     background-color: white;
 }
@@ -25,12 +31,13 @@ footer{
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Gabriela', serif; !important;
-    color: #FBDB52;!important;
+    font-family: 'Gabriela', serif !important;
+    color: #FBDB52 !important;
 }
 .imagecotainer{
     position: relative;
 }
+
 .text-block {
     position: absolute;
     top: 20px;
@@ -38,15 +45,7 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
 }
-.text-block2 {
-    position: absolute;
-    bottom: 1px;
-  
-}
-.-block {
-    position: absolute;
-    
-}
+
 .header{
     background-color:#84818B;
     padding-bottom: 3%;
@@ -66,20 +65,47 @@ footer{
 .footertext{
     color: white;
 }
+.no-gutters>.col, .no-gutters>[class*=col-]{
+    padding: 1% !important;
+}
 
 #footer{
     padding-top: 2%;
 }
+
+
+/*********************************************
+MEDIA QUERIES
+**********************************************/
 #image2{
     display: none;
 }
-@media only screen and (max-width: 800px){ 
+#title{
+    display: none;
+}
+
+@media only screen and (max-width: 750px){ 
     #image1{
-        display: none;
-    }
-   
-    #image2{
+         display: none !important;
+     }
+     #image2{
+         display: block;
+     }
+     #title{
         display: block;
     }
-}
+    #title2{
+        display: none;
+        justify-content: center
+    }
+     
+     
+ }
+
+
+
+
+
+
+
 
