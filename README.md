@@ -5,7 +5,7 @@ official page http://www.cs634-altsimmons-01.designaspractice.com/index.html
 
 or view on github pages https://teamuematsu.github.io
 
-# Credits and Soureces
+### Credits and Soureces
 
 Landing page image -  https://kotaku.com/the-beautiful-final-fantasy-art-of-yoshitaka-amano-30782112 <br />
 Placeholder image - https://kotaku.com/the-beautiful-final-fantasy-art-of-yoshitaka-amano-30782112 <br />
