@@ -1,5 +1,5 @@
 # uematsu-website
-website for Nobuo Uematsu student project
+Website for Nobuo Uematsu student project - sprint1
 
 official page http://www.cs634-altsimmons-01.designaspractice.com/index.html
 
