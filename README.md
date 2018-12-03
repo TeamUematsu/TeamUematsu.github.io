@@ -7,6 +7,9 @@ or view on github pages https://teamuematsu.github.io
 
 ### Credits and Soureces
 
+Nobuo Uematsu biography -https://en.wikipedia.org/wiki/Nobuo_Uematsu <br />
+Album information -https://en.wikipedia.org/wiki/Music_of_the_Final_Fantasy_series <br />
+
 Landing page image -  https://kotaku.com/the-beautiful-final-fantasy-art-of-yoshitaka-amano-30782112 <br />
 Placeholder image - https://kotaku.com/the-beautiful-final-fantasy-art-of-yoshitaka-amano-30782112 <br />
 Nobuo image - https://www.mcvuk.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTU4NTgwMTYzNjAzMzQyNTk0/nobuo-uematsu.png<br />
