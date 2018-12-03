@@ -55,6 +55,10 @@ footer{
     font-family: 'Gabriela', serif;
     color: #D5342C;
 }
+.aboutme{
+    padding-top:15%;
+    font-size: 18px;
+}
 .landing{
     margin: 0%;
 }
@@ -97,6 +101,9 @@ MEDIA QUERIES
     #title2{
         display: none;
         justify-content: center
+    }
+    .aboutme{
+        padding-top: 0%;
     }
      
      
