@@ -70,6 +70,19 @@ footer{
     margin: 2%;
     
 }
+.checkoutMenu{
+    padding-top: 2%;
+}
+.messageImage{
+    background-image: url(../assets/Symphony.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+    padding: 17%
+}
+#userPreferences{
+    background-color: white;
+}
+
 
 .futureConcerts{
     padding-top:  5%;
@@ -84,10 +97,25 @@ footer{
     margin: 2%;
 }
 .ticketmenu{
-    background-color: antiquewhite;
-    padding-top: 2%;
+    background-image: url(../assets/Symphony.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+    padding: 2%;
+
+}
+.nextShows{
+    background-color:#84818B;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
+.ticketmenu{
+    padding-top: 2%;
+}
+#errorBox{
+
+    margin: 4%;
+}
 
 
 .footertext{
