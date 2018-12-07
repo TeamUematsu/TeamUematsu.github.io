@@ -3,7 +3,6 @@
 
 <head>
 
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,7 +24,7 @@
 
     <link rel="stylesheet" href="../styles/ticket.css">
     <!-- Index javascript file-->
-    <script src="../js/tickets.js"></script>
+    <script src="../js/checkout.js"></script>
 
 </head>
 
@@ -48,9 +47,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/music.html">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/video.html">Video</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/store.html">Store</a>
@@ -76,55 +72,101 @@
         <div id="main" class="container-fluid ">
             <div class="row header">
                 <div class="col-sm-12 mx-auto text-center">
-                    <h1>Concerts</h1>
+                    <h1>Checkout</h1>
                 </div>
+            </div>
+            <div  class="row justify-content-center">
+                <div id="userPreferences" class="col-sm-8">
+
+                </div>
+                <!-- User specific preferences will render here-->
             </div>
             <div class="ticketmenu">
                 <div class="row justify-content-center">
                     <div class="col-sm-6 text-center">
-                        <h2>See all concert dates</h2>
+                        <h2>Please Fill Out Your Information Below</h2>
                     </div>
                 </div>
 
                 <div class="row justify-content-center ">
 
-                    <div class="col-sm-6 text-center concertmenu">
+                    <div class="col-sm-8 purchaseInfo">
                         <div class="row">
-                            <h4>Select date</h4>
+                            <h4>Mailing Information</h4>
                         </div>
-                        <div class="row">
-                            <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                                <option selected>Select show</option>
-                                <option value="1">Madison Square Garden, December, 14, 2018</option>
-                                <option value="2">MetLife Stadium, December, 15, 2018</option>
-                                <option value="3">Barclays Center, December, 16, 2018</option>
-                            </select>
-                        </div>
-                        <div class="row">
-                            <h4>select quantity</h4>
-                        </div>
-                        <div class="row">
-                            <input type="integer" class="form-control" id="quantityInput" placeholder="Select quantiy">
-                        </div>
-                        <div class="row">
-                            <h4>Select Seats from available sections</h4>
-                        </div>
-                        <div class="row">
-                            <div class="form-check justify-content-left">
-
-                                <input class="radiobtn" type="radio" name="radioName" value="Premium" /> Premium
+                        <div class="row ">
+                            <div class="col-sm-4">
+                                <input type="string" class="form-control" id="mailName" placeholder="Full Name">
                                 <br />
-                                <input class="radiobtn" type="radio" name="radioName" value="Orchestra" /> Orchestra
+                                <input type="string" class="form-control" id="mailAddress1" placeholder="Street Address 1">
                                 <br />
-                                <input class="radiobtn" type="radio" name="radioName" value="Lower Mezzanine" /> Lower Mezzanine
+                                <input type="string" class="form-control" id="mailAddress2" placeholder="Street Address 2">
                                 <br />
-                                <input class="radiobtn" type="radio" name="radioName" value="Upper Mezzanine" /> Upper Mezzanine
+                                <input type="string" class="form-control" id="mailCity" placeholder="Town/City">
                                 <br />
-
                             </div>
+                            <div class="col-sm-4">
+                                <input type="string" class="form-control" id="mailState" placeholder="State">
+                                <br />
+                                <input type="string" class="form-control" id="mailZipcode" placeholder="Zipcode">
+                                <br />
+                                <input type="string" class="form-control" id="mailPhoneNumber" placeholder="Phone Number (Optional)">
+                                <br />
+                                <input type="string" class="form-control" id="mailEmail" placeholder="Email">
+                                <br />
+                            </div>
+
+
                         </div>
+
+                        <div class="row">
+                            <h4>Billing Information</h4>
+                            
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <input type="string" class="form-control" id="billName" placeholder="Full Name">
+                                <br />
+                                <input type="string" class="form-control" id="billAddress1" placeholder="Street Address 1">
+                                <br />
+                                <input type="string" class="form-control" id="billAddress2" placeholder="Street Address 2">
+                                <br />
+                                <input type="string" class="form-control" id="billCity" placeholder="Town/City">
+                                <br />
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="string" class="form-control" id="billState" placeholder="State">
+                                <br />
+                                <input type="string" class="form-control" id="billZipcode" placeholder="Zipcode">
+                                <br />
+                                <input type="string" class="form-control" id="billPhoneNumber" placeholder="Phone Number (Optional)">
+                                <br />
+                                <input type="string" class="form-control" id="billEmail" placeholder="Email">
+                                <br />
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <h4>Payment Information</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                    <input type="string" class="form-control" id="ccNumber" placeholder="Credit/Debit Card Number">
+                                    <br />
+                                    <input type="string" class="form-control" id="ccExpiration" placeholder="Expiration Date">
+                                    <br />
+                                    <input type="string" class="form-control" id="securityCode" placeholder="Security Code (CSV)">
+                                    <br />
+                                    <input type="string" class="form-control" id="ccZipcode" placeholder="Zipcode">
+                                    <br />
+                            </div>
+                          
+                        </div>
+
                         <div class="row justify-content-center">
-                            <button id="checkoutBtn" class="btn btn-danger">Proceed to Checkout</button>
+                            <button id="purchaseBtn" class="btn btn-danger">Complete Purchase</button>
                         </div>
 
                     </div>

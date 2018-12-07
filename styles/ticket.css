@@ -4,9 +4,7 @@ h3{
     color:black !important;
 
 }
-.ticketmenu{
-    background-color: antiquewhite;
-}
+
 
 
 body {
@@ -41,7 +39,7 @@ footer{
 }
 
 .navbar-default .navbar-brand {
-    
+
     font-family: 'Gabriela', serif !important;
     color: #FBDB52 !important;
 }
@@ -80,6 +78,18 @@ footer{
     background-color: white;
 
 }
+.purchaseInfo{
+    background-color: white;
+    padding: 4%;
+    margin: 2%;
+}
+.ticketmenu{
+    background-color: antiquewhite;
+    padding-top: 2%;
+}
+
+
+
 .footertext{
     color: white;
 }
