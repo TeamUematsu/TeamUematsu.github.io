@@ -117,6 +117,31 @@ footer{
     margin: 4%;
 }
 
+.concerts{
+	opacity: 0.5;
+    padding: 2%;
+
+}
+
+.concertDate{
+	font-family: 'Candara', serif;
+	font-style: 
+    padding-top: 2%;
+}
+
+.subtext{
+	 font-weight: bold;
+}
+
+.concertLocation{
+	font-family: 'Candara', serif;
+    padding-top: 2%;
+}
+
+.concertLink
+font-family: 'Candara', serif;
+    padding-top: 2%;
+}
 
 .footertext{
     color: white;

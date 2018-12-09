@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/music.html">Albums</a>
+                    <a class="nav-link" href="../pages/music.html">Music</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/video.html">Video</a>
@@ -72,105 +72,59 @@
     </nav>
 
     <body>
+<!--Concert Shows Section-->
+    <div class="container-fluid">
+        <div class="row ">
 
-        <div id="main" class="container-fluid ">
-            <div class="row header">
-                <div class="col-sm-12 mx-auto text-center">
-                    <h1>Concerts</h1>
-                </div>
-            </div>
-            <div class="ticketmenu">
+            <div class="col-md-10 mx-auto ">  
+				<div class="ticketmenu">
+					<div class="row justify-content-center ">
+						<div class="col-sm-10 text-center concertmenu">
+							<div class="row justify-content-center">
+								<h2>Concert dates</h2>
+							</div>
+								  
+							<div class="table-responsive concerts">
+							  <table class="table">
+								      <tbody>
+										<tr>
+										  <td class="concertDate">14 December 2018</td>
+										  <td class="concertLocation">New York, NY<br>
+										  <div class="subtext">Madison Square Garden | Premium Seating Available
+										  </div></td>
+										  <td class="concertLink"><a href="shows.html">Purchase Tickets here</a></td>
+										</tr>
+										<tr>
+										  <td class="concertDate">14 December 2018</td>
+										  <td class="concertLocation">New York, NY<br>
+										  <div class="subtext">Madison Square Garden | Premium Seating Available
+										  </div></td>
+										  <td class="concertLink">Purchase Tickets here</td>
+										</tr>
+										<tr>
+										  <td class="concertDate">14 December 2018</td>
+										  <td class="concertLocation">New York, NY<br>
+										  <div class="subtext">Madison Square Garden | Premium Seating Available
+										  </div></td>
+										  <td class="concertLink">Purchase Tickets here</td>
+										</tr>
+										<tr>
+										  <td class="concertDate">14 December 2018</td>
+										  <td class="concertLocation">New York, NY<br>
+										  <div class="subtext">Madison Square Garden | Premium Seating Available
+										  </div></td>
+										  <td class="concertLink">Purchase Tickets here</td>
+										</tr>
+									  </tbody>
+							  </table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-
-                <div class="row justify-content-center ">
-
-                    <div class="col-sm-6 text-center concertmenu">
-                        <div class="row justify-content-center">
-                            <h2><a href="shows.html">See all concert dates</a></h2>
-                        </div>
-                        <div class="row">
-                            <h4>Select date</h4>
-                        </div>
-                        <div class="row">
-                            <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                                <option selected>Select show</option>
-                                <option value="1">Madison Square Garden, December 14, 2018</option>
-                                <option value="2">MetLife Stadium, December 15, 2018</option>
-                                <option value="3">Barclays Center, December 16, 2018</option>
-                            </select>
-                        </div>
-                        <div class="row">
-                            <h4>select quantity</h4>
-                        </div>
-                        <div class="row">
-                            <input type="integer" class="form-control" id="quantityInput" placeholder="Select quantiy">
-                        </div>
-                        <div class="row">
-                            <h4>Select seats from available sections</h4>
-                        </div>
-                        <div class="row">
-                            <div class="form-check justify-content-left">
-
-                                <input class="radiobtn" type="radio" name="radioName" value="Premium" /> Premium
-                                <br />
-                                <input class="radiobtn" type="radio" name="radioName" value="Orchestra" /> Orchestra
-                                <br />
-                                <input class="radiobtn" type="radio" name="radioName" value="Lower Mezzanine" /> Lower Mezzanine
-                                <br />
-                                <input class="radiobtn" type="radio" name="radioName" value="Upper Mezzanine" /> Upper Mezzanine
-                                <br />
-
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <button id="checkoutBtn" class="btn btn-danger">Proceed to Checkout</button>
-                        </div>
-                        <div id="errorBox" class="row justify-content-center">
-                            <!-- error box will render here-->
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="nextShows">
-                <div class="row justify-content-left">
-                    <div class="col-sm-6 text-center">
-                        <h1>Upcoming Shows</h1>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 text-center">
-                        <div class="row justify-content-center">
-
-                            <div class="col-md-3 futureConcerts">
-                                <h3>Madison Square Garden
-                                    <br> New York City, Ny,
-                                    <br> Friday
-                                    <br> December, 14, 2018
-                                </h3>
-                            </div>
-                            <div class="col-md-3 futureConcerts">
-                                <h3>MetLife Stadium
-                                    <br> East Rutherford, NJ,
-                                    <br> Saturday
-                                    <br>December, 15, 2018
-                                </h3>
-                            </div>
-                            <div class="col-md-3 futureConcerts">
-                                <h3>Barclay's Center
-                                    <br> Brooklyn, Ny,
-                                    <br> Sunday
-                                    <br>December, 16, 2018
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </body>
 
     <!-- Footer -->
