@@ -5,8 +5,6 @@ h3{
 
 }
 
-
-
 body {
     background-color: white;
 }
@@ -33,9 +31,8 @@ p{
     font-family: 'Candara', san-serif;
 }
 footer{
-   
+    margin-top: 2%;
     background-color: #000;
-
 }
 
 .navbar-default .navbar-brand {
@@ -127,12 +124,19 @@ footer{
 }
 
 .concertLocation{
-	font-size: 18px;
+	font-size: 17px;
 	font-family: 'Candara', serif;
     padding-top: 2%;
 }
 
 .concertLink {
+	font-size: 16px;
+	font-family: 'Candara', serif;
+    padding-top: 2%;
+}
+
+.concertNoLink {
+	font-size: 16px;
 	font-family: 'Candara', serif;
     padding-top: 2%;
 	font-weight: bold;
@@ -148,5 +152,7 @@ footer{
 
 #footer{
     padding-top: 2%;
+	padding-right: 15px;
+    padding-left: 15px;
 }
 
