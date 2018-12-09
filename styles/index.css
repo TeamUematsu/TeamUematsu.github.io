@@ -11,6 +11,9 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+img{
+    width: 100%;
+}
 h1,h5{
     font-family: 'Gabriela', serif;
     color: #FBDB52;
@@ -22,7 +25,7 @@ h4,h3,h2{
 
 }
 p{
-    font-family: 'Gabriela', serif;
+    font-family: sans-serif;
 }
 footer{
     margin-top: 2%;
