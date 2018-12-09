@@ -30,11 +30,7 @@ h4,h2{
 
 }
 p{
-<<<<<<< HEAD
-    font-family: sans-serif;
-=======
-    font-family: 'Candara', serif;
->>>>>>> bfa0731cdf376fe39b795bb74e0389fe3333059f
+    font-family: 'Candara', san-serif;
 }
 footer{
    
@@ -72,17 +68,12 @@ footer{
     background-color: white;
     padding: 4%;
     margin: 2%;
-    
+    opacity: 0.85;
 }
 .checkoutMenu{
     padding-top: 2%;
 }
-.messageImage{
-    background-image: url(../assets/Symphony.png);
-    background-repeat: no-repeat, repeat;
-    background-size: 100% 100%;
-    padding: 17%
-}
+
 #userPreferences{
     background-color: white;
 }
@@ -122,29 +113,30 @@ footer{
 }
 
 .concerts{
-	opacity: 0.5;
     padding: 2%;
-
 }
 
 .concertDate{
 	font-family: 'Candara', serif;
-	font-style: 
-    padding-top: 2%;
+	font-style: padding-top: 2%;
+	font-size: 18px;
 }
 
 .subtext{
-	 font-weight: bold;
+	font-weight: bold;
 }
 
 .concertLocation{
+	font-size: 18px;
 	font-family: 'Candara', serif;
     padding-top: 2%;
 }
 
-.concertLink
-font-family: 'Candara', serif;
+.concertLink {
+	font-family: 'Candara', serif;
     padding-top: 2%;
+	font-weight: bold;
+
 }
 
 .footertext{
