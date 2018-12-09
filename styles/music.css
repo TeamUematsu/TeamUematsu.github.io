@@ -16,7 +16,8 @@ h1,h4,h2{
 
 }
 p{
-    font-family: 'Gabriela', serif;
+    font-family: 'Candara', serif;
+	display: inline-block;
 }
 footer{
    
@@ -44,6 +45,10 @@ footer{
 }
 .backbtn{
     color: #FBDB52;
+}
+
+.backtext{
+	color: #FBDB52;
 }
 .album{
     border: #84818B
