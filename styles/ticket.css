@@ -30,7 +30,11 @@ h4,h2{
 
 }
 p{
+<<<<<<< HEAD
+    font-family: sans-serif;
+=======
     font-family: 'Candara', serif;
+>>>>>>> bfa0731cdf376fe39b795bb74e0389fe3333059f
 }
 footer{
    
