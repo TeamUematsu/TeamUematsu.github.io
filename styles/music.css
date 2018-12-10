@@ -16,8 +16,7 @@ h1,h4,h2{
 
 }
 p{
-    font-family: sans-serif;
-    font-family: 'Candara', serif;
+    font-family: 'Candara', sans-serif;
 	display: inline-block;
 }
 footer{
