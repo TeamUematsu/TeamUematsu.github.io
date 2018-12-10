@@ -33,10 +33,11 @@ footer{
 
 }
 
-.navbar-default .navbar-brand {
+.navbar-brand {
     font-family: 'Gabriela', serif !important;
     color: #FBDB52 !important;
 }
+
 .imagecontainer{
     position: relative;
 }
