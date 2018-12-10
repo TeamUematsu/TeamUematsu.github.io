@@ -30,8 +30,8 @@ h4,h2{
 p{
     font-family: 'Candara', sans-serif;
 }
+
 footer{
-    margin-top: 2%;
     background-color: #000;
 }
 
@@ -70,7 +70,11 @@ footer{
 .checkoutMenu{
     padding-top: 2%;
 }
-
+.recap{
+    font-family: 'Candara', sans-serif;
+	font-size: 27px;
+    color: #D5342C;
+}
 #userPreferences{
     background-color: white;
 }
@@ -93,6 +97,13 @@ footer{
     background-image: url(../assets/Symphony.png);
     background-repeat: no-repeat, repeat;
     background-size: 100% 100%;
+    padding: 2%;
+
+}
+.checkouttop{
+    background-image: url(../assets/Symphony.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
     padding: 2%;
 
 }
