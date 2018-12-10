@@ -5,8 +5,6 @@ h3{
 
 }
 
-
-
 body {
     background-color: white;
 }
@@ -30,12 +28,11 @@ h4,h2{
 
 }
 p{
-    font-family: 'Candara', serif;
+    font-family: 'Candara', sans-serif;
 }
-footer{
-   
-    background-color: #000;
 
+footer{
+    background-color: #000;
 }
 
 .navbar-default .navbar-brand {
@@ -68,16 +65,15 @@ footer{
     background-color: white;
     padding: 4%;
     margin: 2%;
-    
+    opacity: 0.9;
 }
 .checkoutMenu{
     padding-top: 2%;
 }
-.messageImage{
-    background-image: url(../assets/Symphony.png);
-    background-repeat: no-repeat, repeat;
-    background-size: 100% 100%;
-    padding: 17%
+.recap{
+    font-family: 'Candara', sans-serif;
+	font-size: 27px;
+    color: #D5342C;
 }
 #userPreferences{
     background-color: white;
@@ -95,11 +91,19 @@ footer{
     background-color: white;
     padding: 4%;
     margin: 2%;
+	opacity: 0.95;
 }
 .ticketmenu{
     background-image: url(../assets/Symphony.png);
     background-repeat: no-repeat, repeat;
     background-size: 100% 100%;
+    padding: 2%;
+
+}
+.checkouttop{
+    background-image: url(../assets/Symphony.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
     padding: 2%;
 
 }
@@ -118,29 +122,37 @@ footer{
 }
 
 .concerts{
-	opacity: 0.5;
     padding: 2%;
-
 }
 
 .concertDate{
 	font-family: 'Candara', serif;
-	font-style: 
-    padding-top: 2%;
+	font-style: padding-top: 2%;
+	font-size: 18px;
 }
 
 .subtext{
-	 font-weight: bold;
+	font-weight: bold;
 }
 
 .concertLocation{
+	font-size: 17px;
 	font-family: 'Candara', serif;
     padding-top: 2%;
 }
 
-.concertLink
-font-family: 'Candara', serif;
+.concertLink {
+	font-size: 16px;
+	font-family: 'Candara', serif;
     padding-top: 2%;
+}
+
+.concertNoLink {
+	font-size: 16px;
+	font-family: 'Candara', serif;
+    padding-top: 2%;
+	font-weight: bold;
+
 }
 
 .footertext{
@@ -152,5 +164,7 @@ font-family: 'Candara', serif;
 
 #footer{
     padding-top: 2%;
+	padding-right: 15px;
+    padding-left: 15px;
 }
 

@@ -19,5 +19,6 @@ Cover art ff8  - https://images-fe.ssl-images-amazon.com/images/I/31NbKzysaJL.jp
 Cover art ff9 - https://images-eu.ssl-images-amazon.com/images/I/51wnOh5dv%2BL.png<br />
 Cover art ff6 - https://is4-ssl.mzstatic.com/image/thumb/Features/v4/5f/21/3c/5f213c07-a54e-7fec-1627-452379f7c1a3/dj.yhquhdrd.jpg/600x600bf.png<br />
 
+Responsive Youtube styling - https://www.ostraining.com/blog/coding/responsive-videos/
 Additional assets such as buttons and navigation bar were sourced using Bootstrap framework. 
 Playable music tracks are embeds from Soundcloud.

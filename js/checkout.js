@@ -18,12 +18,12 @@ $(document).ready(function () {
     console.log("paramArray", concetDate, seatingType, ticketQuantity)
 
     if (paramArray[1] > 1) {
-        $("#userPreferences").append("<h3> We have reserved " + paramArray[1] + " seats in the " + paramArray[2] + " section for the following show: </h3>");
-        $("#userPreferences").append("<h3>" + paramArray[0] + "</h3>");
+        $("#userPreferences").append("<p class=\"recap\"> We have reserved " + paramArray[1] + " seats in the " + paramArray[2] + " section for the following show: </p>");
+        $("#userPreferences").append("<p class=\"recap\"><br>" + paramArray[0].replace(",", "<br>") + "</p>");
     }
     else {
-        $("#userPreferences").append("<h3> We have reserved " + paramArray[1] + " seat in the " + paramArray[2] + " section for the following show: </h3>");
-        $("#userPreferences").append("<h3>" + paramArray[0] + "</h3>");
+        $("#userPreferences").append("<p class=\"recap\"> We have reserved " + paramArray[1] + " seat in the " + paramArray[2] + " section for the following show: </p>");
+        $("#userPreferences").append("<p class=\"recap\"><br>" + paramArray[0].replace(",", "<br>") + "</p>");
     }
 
     $("#purchaseBtn").click(function (event) {

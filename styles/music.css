@@ -16,14 +16,14 @@ h1,h4,h2{
 
 }
 p{
-    font-family: 'Candara', serif;
+    font-family: 'Candara', sans-serif;
 	display: inline-block;
 }
 footer{
-   
+    margin-top: 2%;
     background-color: #000;
-
 }
+
 .title{
     padding-top: 4%;
     
@@ -60,4 +60,19 @@ footer{
 #footer{
     padding-top: 2%;
 }
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 

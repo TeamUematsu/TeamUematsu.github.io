@@ -25,7 +25,7 @@ h4,h3,h2{
 
 }
 p{
-    font-family: 'Candara', serif;
+    font-family: 'Candara', sans-serif;
 }
 footer{
     margin-top: 2%;
@@ -37,7 +37,7 @@ footer{
     font-family: 'Gabriela', serif !important;
     color: #FBDB52 !important;
 }
-.imagecotainer{
+.imagecontainer{
     position: relative;
 }
 
