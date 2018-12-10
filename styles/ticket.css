@@ -87,6 +87,7 @@ footer{
     background-color: white;
     padding: 4%;
     margin: 2%;
+	opacity: 0.95;
 }
 .ticketmenu{
     background-image: url(../assets/Symphony.png);
