@@ -4,8 +4,6 @@ $(document).ready(function () {
 
         event.preventDefault();
 
-
-
         let concetDate = $("#inputGroupSelect03 option:selected").text();
         let ticketQuantity = $("#quantityInput").val();
         let seatingType = $(".radiobtn:checked").val()
@@ -21,8 +19,6 @@ $(document).ready(function () {
             alert("Make sure you have selected a show, number of tickets and seating.")
 
         }
-
-
 
     });
 });
